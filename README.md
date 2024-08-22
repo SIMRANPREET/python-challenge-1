@@ -54,6 +54,7 @@ item_name = menu_items[menu_selection]["Item name"]
 
 ``` python
 quantity_of_item = input(f"How many of {item_name} do you want: ")
+
 if quantity_of_item.isdigit():
   quantity_of_item = int(quantity_of_item)
 else:
